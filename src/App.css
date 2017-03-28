@@ -14,11 +14,45 @@
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.body {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  background-color: whitesmoke;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.card {
+  width: 500px;
+  margin: 25px;
+}
+
+.cardHead {
+  height: 80px;
+  width: 500px;
+  display: inline-block;
+}
+
+.profilePic {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+  margin: 5px;
+}
+
+.headIntro {
+  height: 70px;
+  width: 400px;
+  margin: 5px 5px 5px 85px;
+}
+
+.cardImage {
+  width: 500px;
+  height: auto;
+  margin: 10px;
+}
+
+.cardContent {
+  margin: 15px 25px 15px 25px;
 }
