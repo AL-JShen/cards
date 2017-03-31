@@ -2,29 +2,57 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
 .body {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  border-bottom: solid 1px black;
+  margin-bottom: 25px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin-left: 250px;
+}
+
+.nav {
+  float: right;
+  margin-right: 20px;
+}
+
+.nav a {
+  font-size: 1.3em;
+  margin: 10px;
+}
+
+.nav a:link, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover {
+  color: grey;
+}
+
+.container {
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
-  background-color: whitesmoke;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 
 .card {
-  width: 500px;
+  width: 35%;
   margin: 25px;
+  background-color: white;
 }
 
 .cardHead {
@@ -45,12 +73,17 @@
   height: 70px;
   width: 400px;
   margin: 5px 5px 5px 85px;
+  
+}
+
+.headIntro p {
+  float: left;
 }
 
 .cardImage {
-  width: 500px;
-  height: auto;
-  margin: 10px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 .cardContent {

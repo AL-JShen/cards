@@ -6,7 +6,7 @@ export default class CardHead extends Component {
     return (
       <div className='cardHead'>
         <div className='profilePic'>
-          <img src={this.props.profilePicUrl} alt={this.props.profilePicAlt} />
+          <img src={require(this.props.profilePicUrl)} alt={this.props.profilePicAlt} />
         </div>
         <div className='headIntro'>
           <p><strong>{this.props.username}</strong></p>

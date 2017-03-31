@@ -8,9 +8,9 @@ export default class Card extends Component {
   render() {
     return (
       <div className='card'>
-        <CardHead />
-        <CardImage />
-        <CardContent />
+        <CardHead {...this.props}/>
+        <CardImage {...this.props}/>
+        <CardContent {...this.props}/> 
       </div>
     );
   }
