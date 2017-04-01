@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
 .App {
   text-align: center;
 }
@@ -9,8 +11,9 @@
 
 .navbar {
   width: 100%;
+  height: 50px;
   background-color: white;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px lightgrey;
   margin-bottom: 25px;
   display: flex;
   padding: 10px;
@@ -19,62 +22,79 @@
 }
 
 .title {
-  margin-left: 250px;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
+.title span {
+  font-size: 1.7em;
+  margin: auto;
+}
+
+.title h1 {
+  font-family: 'Satisfy', cursive;
+  margin: auto;
+  margin-left: 30px;
+  border-left: solid 1px grey;
+  padding-left: 30px;
+}
+
+.search {
+  margin-right: 70px;
+  padding: 5px 50px 5px 50px;
+  border: solid 1px lightgrey;
+  color: grey;
+  font-size: 14px;
+}
+
+.search span {
+  margin: 2px;
+}
 .nav {
   float: right;
-  margin-right: 20px;
+  margin-right: 15%;
+  font-size: 1.8em;
 }
 
-.nav a {
-  font-size: 1.3em;
-  margin: 10px;
-}
-
-.nav a:link, a:visited, a:active {
-  text-decoration: none;
-  color: black;
-}
-
-.nav a:hover {
-  color: grey;
+.nav span {
+  margin: 15px;
 }
 
 .container {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
 }
 
 .card {
-  width: 35%;
+  width: 600px;
   margin: 25px;
   background-color: white;
-  border: solid 1px grey;
+  border: solid 1px lightgrey;
 }
 
 .cardHead {
-  height: 80px;
+  height: 70px;
   width: 100%;
   display: inline-block;
 }
 
 .profilePic img {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%; 
   float: left;
-  margin: 5px;
+  margin: 10px;
 }
 
 .headIntro {
-  height: 70px;
+  height: 60px;
   width: 400px;
-  margin: 5px 5px 5px 85px;
-  
+  margin-left: 70px;
 }
 
 .headIntro p {
@@ -83,10 +103,10 @@
   margin-left: 10px;
 }
 
-.cardImage {
-  width: 100%;
+.cardImage img {
+  width: 99.8%;
   padding: 0px;
-  margin: 0px;
+  margin: -1px;
   border: solid 1px lightgrey;
 }
 
