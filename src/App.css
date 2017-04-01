@@ -53,18 +53,19 @@
   width: 35%;
   margin: 25px;
   background-color: white;
+  border: solid 1px grey;
 }
 
 .cardHead {
   height: 80px;
-  width: 500px;
+  width: 100%;
   display: inline-block;
 }
 
-.profilePic {
+.profilePic img {
   height: 70px;
   width: 70px;
-  border-radius: 50%;
+  border-radius: 50%; 
   float: left;
   margin: 5px;
 }
@@ -78,12 +79,15 @@
 
 .headIntro p {
   float: left;
+  text-align: justify;
+  margin-left: 10px;
 }
 
 .cardImage {
   width: 100%;
   padding: 0px;
   margin: 0px;
+  border: solid 1px lightgrey;
 }
 
 .cardContent {
